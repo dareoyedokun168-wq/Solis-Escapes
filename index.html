@@ -8,9 +8,7 @@
     <script src="icons/all.min.js"></script>
     <link rel="stylesheet" href="icons/all.min.css" />
 
-    <style>
-      
-    </style>
+    <style></style>
   </head>
   <body>
     <header
@@ -85,14 +83,13 @@
             Find your Escape
           </h1>
           <div
-            class="bg-white space-x-5 text-black flex rounded-2xl px-[30px]  py-[15px]"
+            class="bg-white space-x-5 text-black flex rounded-2xl px-[30px] py-[15px]"
           >
             <div
-              class="pr-[130px]  flex pl-[20px] items-center gap-5 hover:bg-[#a09d9d2f] transition-colors border-r-2 rounded-2xl border-[#0000005d]"
+              class="pr-[130px] flex pl-[20px] items-center gap-5 hover:bg-[#a09d9d2f] transition-colors border-r-2 rounded-2xl border-[#0000005d]"
             >
-          
               <div
-                class="text-[#0000ff9f]  [text-3xl bg-[#e6e3e3]  rounded-full p-[20px]"
+                class="text-[#0000ff9f] [text-3xl bg-[#e6e3e3] rounded-full p-[20px]"
               >
                 <i class="fa fa-map-location-dot"></i>
               </div>
@@ -114,7 +111,9 @@
                 <h1 class="text-[#000000e0]">May 15 - May 24</h1>
               </div>
             </div>
-            <div class="flex items-center  hover:bg-[#a09d9d2f] transition-colors rounded-2xl gap-5 pl-[20px]">
+            <div
+              class="flex items-center hover:bg-[#a09d9d2f] transition-colors rounded-2xl gap-5 pl-[20px]"
+            >
               <div class="text-2xl bg-[#e6e3e3] p-[20px] rounded-full">
                 <i class="fa fa-user-alt"></i>
               </div>
@@ -133,17 +132,114 @@
       </div>
     </header>
 
-    <main class="bg-[whitesmoke]">
-      <section class="">
-      <div class="">
-        <p class="">
-          curated Escapes 
-        </p>
-        <h1 class="font-serif">
-          Trending Destinations
-        </h1>
-      </div>
+    <main class="bg-white/100">
+
+      <section class="pt-[50px]">
+        <div class="flex items-center justify-between p-[20px]">
+          <div class="space-y-2">
+            <p class="text-xs uppercase font-bold text-[blue]">
+              Curated Escapes
+            </p>
+
+            <h1 class="font-serif uppercase text-3xl font-medium text-[black]">
+              Trending Destinations
+            </h1>
+          </div>
+
+          <div>
+            <p class="text-slate-600 max-w-md font-sans font-semibold">
+              Handpicked itineraries blending architectural wonders,<br />
+              secluded coastlines, and effortless private logistics.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex gap-[15px] justify-start items-center p-[20px] bg-[#e6e3e3] rounded-xl mx-[40px]"
+        >
+          <div class="">
+            <button
+              class="text-[#000000e0] bg-[#d1cfcf] rounded-3xl px-[25px] py-[5px] cursor-pointer hover:bg-[#155060] hover:text-white transition-colors font-semibold"
+            >
+              All
+            </button>
+          </div>
+
+          <div class="">
+            <button
+              class="text-[#000000e0] bg-[#d1cfcf] rounded-2xl px-[25px] py-[5px] cursor-pointer hover:bg-[#155060] hover:text-white transition-colors font-semibold"
+            >
+              Beach & Islands
+            </button>
+          </div>
+
+          <div class="">
+            <button
+              class="text-[#000000e0] bg-[#d1cfcf] rounded-2xl px-[25px] py-[5px] cursor-pointer hover:bg-[#155060] hover:text-white transition-colors font-semibold"
+            >
+              Culture & History
+            </button>
+          </div>
+
+          <div class="">
+            <button
+              class="text-[#000000e0] bg-[#d1cfcf] rounded-2xl px-[25px] py-[5px] cursor-pointer hover:bg-[#155060] hover:text-white transition-colors font-semibold"
+            >
+              Nature & Wildlife
+            </button>
+          </div>
+
+          <div class="">
+            <button
+              class="text-[#000000e0] bg-[#d1cfcf] rounded-2xl px-[25px] py-[5px] cursor-pointer hover:bg-[#155060] hover:text-white transition-colors font-semibold"
+            >
+              Luxury
+            </button>
+          </div>
+
+
+          <div class="flex text-sm items-center">
+            <h1 class=" font-semibold text-[#155060b4]" >
+              Max Budget:
+            </h1>
+
+               <p class="text-[#155060] font-bold">
+                $3000
+               </p>
+               <input type="range" class="bg-[#155060]">
+          </div>
+          <div class="flex gap-[10px] items-center">
+            <p>
+              Sort by:
+            </p>
+           <button class="bg-[#d1cfcf] cursor-pointer text-left rounded-xl p-[9px] pr-[60px] font-medium">
+            Featured
+           </button>
+          </div>
+
+
       </section>
+      
+      <section class="p-[30px] grid grid-cols-3 ">
+        <div class="rounded-xl border border-black">
+         <img src="img/greece.jpeg" alt="" class="rounded-t-xl h-[230px] w-[400px]">
+         <div class="space-y-1  border border-white text-[#155060] p-[10px] shadow-md">
+          <div class="flex text-sm gap-[5px] items-center">
+            <i class="far fa-clock"></i>
+           <h1 class="font-medium">
+            7 Days/ 6 Nights . Europe
+           </h1>
+             </div>
+             <h1 class="text-sm pb-[20px]">
+              Whitewashed Oia Suites & Caldera Sunset Sailing
+             </h1>
+         </div>
+
+        </div>
+      </section>
+
+
+
     </main>
   </body>
 </html>
